@@ -49,11 +49,12 @@ li a:hover{
     color: whitesmoke;
     font-weight: 800;
     border-radius: 5px;
-    padding: 5px;
+    padding: 6px;
     height: 64px;
     width: 150px;
     border: none;
     font-size: 25px 70px;
+    cursor: pointer;
 }
 h2{
     font-weight: 900;
@@ -73,33 +74,90 @@ header{
 .banner-greetings{
     color: rgb(136, 134, 134);
     font-size: 45px;
+    margin-bottom: 5px;
 }
 .developer-name{
     font-weight: 900;
     color: black;
    
     font-size: 85px;
+    margin-top: 10px;
 }
 .banner-description{
     color: rgb(68, 66, 66);
     height: 60px;
     width: 600px;
     font-size: 18px;
+    margin-top: 4px;
+}
+.banner-description:hover{
+    background-color: rgb(146, 146, 190);
 }
 .button2{
     color: coral;
     background-color: aliceblue;
     border-color: coral;
-    border-radius: 5px;
+    border-radius: 6px;
     width: 150px;
     height: 64px;
     font-size: 25px 70px;
-     font-weight: 800;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left:20px ;
 }
+.button2:hover{
+    background-color: rgb(180, 224, 215);
+}
+
+
 .banner-container{
     display: flex;
     justify-content: space-between;
     margin: 0 30px 0 220px;
 
 }
+/* .section-style */
+.section-style{
+    font-size: 35px;
+    font-weight: bold;
+    color: #2b2a2a;
+    text-align: center;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
+.bg-color{
+    background-color: #e9ddd5;
+    .about-des
+}
+
+
+.about-des{
+    font-weight: bold;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    max-width: 1140;
+    margin: 0 auto;
+}
+.about-me{
+    margin-top: 130px;
+    margin-left: 220px;
+    margin-right: 220px;
+    border-radius: 10px;
+}
+.about-div{
+    border: 120px solid rgb(236, 213, 213);
+    /* background-color: white; */
+    border-radius: 10px;
+    padding: 15px;
+}  
+.about-items{
+    text-align: center;
+}  
 
